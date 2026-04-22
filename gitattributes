@@ -1,0 +1,45 @@
+# =========================
+# Pokémon Essentials + RMXP
+# =========================
+
+# Base
+* text=auto
+
+# Texto/código del proyecto
+*.rb    text eol=lf
+*.pbs   text eol=lf
+*.txt   text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# Archivos típicos de Windows
+*.bat    text eol=crlf
+*.ini    text eol=crlf
+*.rxproj text eol=crlf
+
+# Binarios de RPG Maker
+*.rxdata  binary
+*.rvdata  binary
+*.rvdata2 binary
+
+# Binarios generales
+*.exe binary
+*.dll binary
+*.zip binary
+*.7z  binary
+*.rar binary
+
+# Imágenes
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.bmp  binary
+*.gif  binary
+
+# Audio
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.mid binary

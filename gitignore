@@ -1,0 +1,45 @@
+# =========================
+# Pokémon Essentials + RMXP
+# =========================
+
+# Carpetas pesadas / no ideales para este repo
+Audio/
+Graphics/
+Plugins/
+Screenshots/
+
+# Ignora casi todo Data...
+Data/*
+
+# ...pero conserva lo que sí interesa versionar
+!Data/Scripts/
+!Data/Scripts/**
+!Data/Scripts.rxdata
+!Data/messages_core.dat
+
+# Si usas extracción YAML con herramientas externas, activa esto
+!Data/YAML/
+!Data/YAML/**
+
+# Archivos locales / runtime / temporales
+errorlog.txt
+*.bak
+*.tmp
+*.temp
+~*
+
+# Archivos de proyecto/entorno que suelen ser locales
+Game.ini
+Game.rxproj
+RGSS*.dll
+
+# IDEs / editores
+.vscode/
+*.code-workspace
+.idea/
+.vs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
